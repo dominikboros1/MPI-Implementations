@@ -8,7 +8,7 @@ def bubble_sort(arr):
             if arr[j] > arr[j+1]:
                 arr[j], arr[j+1] = arr[j+1], arr[j]
 
-arr = [random.randint(1, 1000) for _ in range(100000)]
+arr = [random.randint(1, 1000000) for _ in range(1000000)]
 
 start_time = time.time()
 bubble_sort(arr)
